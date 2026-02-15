@@ -4,7 +4,7 @@ import './App.css'; // Ensure your arcade CSS is in this file
 function App() {
   const [tasks, setTasks] = useState([]);
   const [formData, setFormData] = useState({ subject: '', topic: '', study_date: '' });
-  const API_URL = 'https://study-scheduler-webprog.onrender.com';
+  const API_URL = 'https://study-scheduler-webprog.onrender.com/';
 
   const fetchTasks = async () => {
     try {
