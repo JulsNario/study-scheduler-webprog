@@ -4,7 +4,7 @@ import './App.css'; // Ensure your arcade CSS is in this file
 function App() {
   const [tasks, setTasks] = useState([]);
   const [formData, setFormData] = useState({ subject: '', topic: '', study_date: '' });
-  const API_URL = 'https://musical-disco-69qggg764prwh5r56-3000.app.github.dev/tasks';
+  const API_URL = 'https://study-scheduler-webprog-rwmi.vercel.app/';
 
   const fetchTasks = async () => {
     try {
