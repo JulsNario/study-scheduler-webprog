@@ -48,7 +48,7 @@ function App() {
     /* Added 'container' class */
     <div className="container" style={{ padding: '40px', minHeight: '100vh' }}>
       <div className="App">
-        <h1>🕹️ Study n GO Arcade</h1>
+        <h1>🕹️ Study n GO</h1>
         
         {/* Added 'input-section' class */}
         <div className="input-section">
@@ -64,7 +64,7 @@ function App() {
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px', textAlign: 'left' }}>
           {/* Active Section */}
           <section>
-            <h2>📅 Active Levels</h2>
+            <h2>📅 Active Task</h2>
             {activeTasks.map(task => (
               /* Added 'list-item' class */
               <div key={task.id} className="list-item" style={cardStyle}>
@@ -84,7 +84,7 @@ function App() {
 
           {/* History Section */}
           <section>
-            <h2>🏆 High Scores</h2>
+            <h2>🏆 History</h2>
             {completedTasks.map(task => (
               /* Added 'list-item' class */
               <div key={task.id} className="list-item" style={{ ...cardStyle, opacity: 0.7, borderLeft: '5px solid #34a853' }}>
